@@ -1,0 +1,35 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    background: linear-gradient(120deg, #f3b0b0 0%, #484747 100%), linear-gradient(300deg, #5b4c4c 0%, #7c96f7 100%, #35373d 100%), linear-gradient(65deg, #c7f4f4 0%, #fae5f3 100%), linear-gradient(185deg, #efd3d3 10%, #535354 95%), radial-gradient(100% 140% at 100% 0%, #516875 0%, #f2c6e9 100%);
+    background-blend-mode: color-dodge, overlay, difference, color-dodge, normal;
+}
+
+.modal {
+    position: fixed;
+    top: 20vh;
+    left: 5%;
+    width: 90%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+    background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
+    
+}
+
+.btn{
+    position:absolute;
+    top:4px;
+    right: 5px;
+    cursor: pointer;
+
+}
+
